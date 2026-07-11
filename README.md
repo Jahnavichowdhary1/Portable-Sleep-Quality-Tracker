@@ -1,5 +1,3 @@
-# Portable-Sleep-Quality-Tracker
-Developed a portable sleep monitoring system that tracks heart rate, body temperature, and movement. Built an interactive web dashboard to visualize sleep quality scores, sensor trends, sleep history, and personalized sleep insights.
 # 😴 Portable Sleep Quality Tracker with Web Interface
 
 ## 📖 Project Overview
@@ -14,13 +12,17 @@ The system analyses the collected parameters and generates a sleep quality score
 
 ---
 
-## 📸 Project Dashboard
+## 📸 Web Dashboard
 
 <p align="center">
   <img src="images/sleep_dashboard.png" width="90%">
 </p>
 
-The dashboard displays the overall sleep quality score, average heart rate, movement activity, and graphical sleep trends.
+<p align="center">
+  <b>Portable Sleep Quality Tracker Dashboard</b>
+</p>
+
+The web dashboard displays the **sleep quality score, heart rate, movement activity, and sleep-related graphical data** in an easy-to-understand interface.
 
 ---
 
@@ -43,7 +45,7 @@ The dashboard displays the overall sleep quality score, average heart rate, move
 - MSP430 Microcontroller
 - UART Communication
 - Embedded C
-- CCS (Code Composer Studio)
+- Code Composer Studio (CCS)
 
 ### Web Development
 
@@ -92,21 +94,19 @@ Sleep Score & Recommendations
 
 ---
 
-## ⚙️ System Parameters
-
-The sleep monitoring system analyses the following parameters:
+## ⚙️ Parameters Monitored
 
 ### ❤️ Heart Rate
 
-Heart rate data is monitored during sleep to identify variations in the user's sleeping condition.
+Heart rate data is monitored during sleep to analyse variations in the user's sleeping condition.
 
 ### 🌡️ Body Temperature
 
-Temperature readings are monitored to identify abnormal variations that may affect sleep quality.
+Temperature readings are monitored to identify variations that may affect sleep quality.
 
 ### 🏃 Movement Detection
 
-Body movements during sleep are recorded to analyse sleep disturbance and movement activity.
+Body movements during sleep are recorded to analyse sleep disturbances and movement activity.
 
 ### ⏱️ Sleep Duration
 
@@ -120,16 +120,16 @@ The system calculates a sleep quality score based on:
 
 - Heart rate
 - Body temperature
-- Number of movements
+- Movement activity
 - Sleep duration
 
-The calculated score is classified into:
+The calculated score is classified as:
 
 - **Good Sleep**
 - **Average Sleep**
 - **Poor Sleep**
 
-Based on the sleep quality, the system provides sleep improvement recommendations.
+Based on the sleep quality, the dashboard provides sleep improvement recommendations.
 
 ---
 
@@ -145,23 +145,6 @@ Based on the sleep quality, the system provides sleep improvement recommendation
 - Dark mode
 - CSV data export
 - Personalised sleep recommendations
-
----
-
-## 📊 Sleep History
-
-The dashboard stores previous sleep records containing:
-
-- Date
-- Heart rate
-- Temperature
-- Movement count
-- Sleep duration
-- Sleep score
-- Sleep quality
-- Sleep recommendations
-
-Users can export the sleep history as a CSV file for further analysis.
 
 ---
 
@@ -184,7 +167,7 @@ Users can export the sleep history as a CSV file for further analysis.
 - Sleep Pattern Analysis
 - Smart Healthcare Systems
 - IoT-based Health Monitoring
-- Remote Patient Monitoring
+- Remote Health Monitoring
 
 ---
 
